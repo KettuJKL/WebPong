@@ -11,3 +11,11 @@
     height: 100%;
     overflow: hidden;
 }
+
+#score {
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, 0%);
+}
